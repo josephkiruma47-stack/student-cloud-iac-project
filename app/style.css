@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #222;
+}
+
+nav {
+    background-color: #0b2545;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav li {
+    font-weight: bold;
+}
+
+header {
+    background-color: #134074;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+}
+
+section {
+    background-color: white;
+    margin: 25px auto;
+    padding: 25px;
+    width: 85%;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #134074;
+}
+
+.architecture {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.architecture div {
+    background-color: #e8f1fb;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.architecture span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    background-color: #e8f1fb;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #134074;
+    color: white;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+footer {
+    background-color: #0b2545;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
